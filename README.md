@@ -1,6 +1,6 @@
 # checkpointModeleEntiteRelation
 
-#### 🏋️ Modèle Entité-Relation (MER) – Exemple concret
+#### 🏋️ Modèle Entité-Relation (MER)
 
  🔹 Entités principales
 
@@ -17,6 +17,8 @@
 
 
 #### 🔹 Relations (associatives)
+
+---------------------------------------------------------------------------------------------------------------------
 | Relation	                                            | Description
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -48,3 +50,16 @@ Inscription      Animation
  id_seance)       id_seance)
     ↑
 Coach (id_coach, nom, prénom, âge, spécialité)
+
+
+
+#### 🧠 Contraintes métier intégrées
+
+
+✅ Un membre ne peut s’inscrire qu’à une séance si le nombre de membres est < 20.
+
+✅ Une séance peut avoir 1 ou 2 coachs max.
+
+✅ Les séances sont liées à un gymnase précis.
+
+✅ Les membres sont rattachés à un gymnase.
